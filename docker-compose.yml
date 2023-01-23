@@ -1,0 +1,13 @@
+version: "3.1"
+
+services:
+  marketoanda:
+    image: ghcr.io/alphaweighted/marketoanda:latest
+    container_name: marketoanda
+    environment:
+      - MKT_ACCOUNT=
+      - MKT_APIKEY=
+    ports:
+      - 6011:6011
+
+
