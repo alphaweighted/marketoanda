@@ -29,7 +29,7 @@ docker run \
   ghcr.io/alphaweighted/marketoanda:latest
 ```
 
-Check the service is operating correctly by using `awcli` to interact with it.  For example, the below command will retrieve the current price of the `GBP_USD` instrument.  See the [awcli docs](awcli.md) for how to discover instruments, stream prices, get candles, etc.
+Check the service is operating correctly by using `awcli` to interact with it.  For example, the below command will retrieve the current price of the `GBP_USD` instrument.  See the [awcli docs](https://github.com/alphaweighted/awcli) for how to discover instruments, stream prices, get candles, etc.
 
 ```shell
 > awcli --data localhost:6011 price OANDA:GBP_USD
