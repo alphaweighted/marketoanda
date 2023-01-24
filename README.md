@@ -5,6 +5,12 @@ The `marketoanda` tool is a market data module for reliable, high performance an
 It acts as a locally hosted 'smart proxy' between your trading code and Oanda's APIs - allowing for easier
 integration, 
  
+## Features
+
+- High performance strongly-typed local API for your own tools to connect with (gRPC based)
+- automatically & transparently handles transient network issues, so your code doesn't have to 
+- automatically & transparently handles Oanda's rate limits, with automatic backoff&retry, so your code doesn't have to
+- automatic batching of large requests - e.g. candlestick requests not limited to 5000 records, again so your code doesn't have to!
 
 ## You will need
 
